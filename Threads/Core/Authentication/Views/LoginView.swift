@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct LoginView: View {
-    
     @State private var email = ""
     @State private var password = ""
     
@@ -25,18 +24,11 @@ struct LoginView: View {
                 
                 VStack {
                     TextField("Enter your email", text: $email)
-                        .font(.subheadline)
-                        .padding(15)
-                        .background(Color(.systemGray6))
-                        .cornerRadius(8)
-                        .padding(.horizontal, 20)
+                        .textInputAutocapitalization(.none)
+                        .modifier(ThreadsTextFieldModifier())
                     
                     SecureField("Enter your password", text: $password)
-                        .font(.subheadline)
-                        .padding(15)
-                        .background(Color(.systemGray6))
-                        .cornerRadius(8)
-                        .padding(.horizontal, 20)
+                        .modifier(ThreadsTextFieldModifier())
                 }
                 
                 NavigationLink {
@@ -55,12 +47,7 @@ struct LoginView: View {
                     
                 } label: {
                     Text("Login")
-                        .font(.subheadline)
-                        .fontWeight(.semibold)
-                        .foregroundColor(.white)
-                        .frame(width: UIScreen.main.bounds.width - 40, height: 50)
-                        .background(.black)
-                        .cornerRadius(8)
+                        .modifier(ThreadsButtonModifier())
                 }
                 
                 Spacer()

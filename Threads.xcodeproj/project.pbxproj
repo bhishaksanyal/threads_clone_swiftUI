@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		DB4657AF2A9A54FA003A5BC3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4657AE2A9A54FA003A5BC3 /* LoginView.swift */; };
+		DB4657B12A9B3166003A5BC3 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4657B02A9B3165003A5BC3 /* RegistrationView.swift */; };
+		DB4657B52A9B3319003A5BC3 /* ThreadsTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4657B42A9B3319003A5BC3 /* ThreadsTextFieldModifier.swift */; };
+		DB4657B72A9B3464003A5BC3 /* ThreadsButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4657B62A9B3464003A5BC3 /* ThreadsButtonModifier.swift */; };
 		DB8CD1D62A9A4B4200E82730 /* ThreadsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8CD1D52A9A4B4200E82730 /* ThreadsApp.swift */; };
 		DB8CD1D82A9A4B4200E82730 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8CD1D72A9A4B4200E82730 /* ContentView.swift */; };
 		DB8CD1DA2A9A4B4300E82730 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB8CD1D92A9A4B4300E82730 /* Assets.xcassets */; };
@@ -16,6 +19,9 @@
 
 /* Begin PBXFileReference section */
 		DB4657AE2A9A54FA003A5BC3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		DB4657B02A9B3165003A5BC3 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		DB4657B42A9B3319003A5BC3 /* ThreadsTextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsTextFieldModifier.swift; sourceTree = "<group>"; };
+		DB4657B62A9B3464003A5BC3 /* ThreadsButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsButtonModifier.swift; sourceTree = "<group>"; };
 		DB8CD1D22A9A4B4200E82730 /* Threads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Threads.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB8CD1D52A9A4B4200E82730 /* ThreadsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsApp.swift; sourceTree = "<group>"; };
 		DB8CD1D72A9A4B4200E82730 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +67,7 @@
 		DB4657A82A9A4C17003A5BC3 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				DB4657B22A9B32EB003A5BC3 /* ViewModifiers */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -99,8 +106,18 @@
 			isa = PBXGroup;
 			children = (
 				DB4657AE2A9A54FA003A5BC3 /* LoginView.swift */,
+				DB4657B02A9B3165003A5BC3 /* RegistrationView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		DB4657B22A9B32EB003A5BC3 /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				DB4657B42A9B3319003A5BC3 /* ThreadsTextFieldModifier.swift */,
+				DB4657B62A9B3464003A5BC3 /* ThreadsButtonModifier.swift */,
+			);
+			path = ViewModifiers;
 			sourceTree = "<group>";
 		};
 		DB8CD1C92A9A4B4200E82730 = {
@@ -212,9 +229,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB4657B72A9B3464003A5BC3 /* ThreadsButtonModifier.swift in Sources */,
 				DB4657AF2A9A54FA003A5BC3 /* LoginView.swift in Sources */,
 				DB8CD1D82A9A4B4200E82730 /* ContentView.swift in Sources */,
+				DB4657B52A9B3319003A5BC3 /* ThreadsTextFieldModifier.swift in Sources */,
 				DB8CD1D62A9A4B4200E82730 /* ThreadsApp.swift in Sources */,
+				DB4657B12A9B3166003A5BC3 /* RegistrationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
