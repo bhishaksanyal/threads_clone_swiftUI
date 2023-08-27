@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB4657AF2A9A54FA003A5BC3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4657AE2A9A54FA003A5BC3 /* LoginView.swift */; };
 		DB8CD1D62A9A4B4200E82730 /* ThreadsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8CD1D52A9A4B4200E82730 /* ThreadsApp.swift */; };
 		DB8CD1D82A9A4B4200E82730 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8CD1D72A9A4B4200E82730 /* ContentView.swift */; };
 		DB8CD1DA2A9A4B4300E82730 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB8CD1D92A9A4B4300E82730 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB4657AE2A9A54FA003A5BC3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		DB8CD1D22A9A4B4200E82730 /* Threads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Threads.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB8CD1D52A9A4B4200E82730 /* ThreadsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsApp.swift; sourceTree = "<group>"; };
 		DB8CD1D72A9A4B4200E82730 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +34,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB4657A52A9A4C02003A5BC3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DB8CD1D52A9A4B4200E82730 /* ThreadsApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		DB4657A62A9A4C09003A5BC3 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				DB4657AC2A9A4C78003A5BC3 /* Root */,
+				DB4657AB2A9A4C72003A5BC3 /* Authentication */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		DB4657A72A9A4C10003A5BC3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DB4657A82A9A4C17003A5BC3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		DB4657A92A9A4C24003A5BC3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DB4657AA2A9A4C2F003A5BC3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		DB4657AB2A9A4C72003A5BC3 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				DB4657AD2A9A4C87003A5BC3 /* Views */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		DB4657AC2A9A4C78003A5BC3 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				DB8CD1D72A9A4B4200E82730 /* ContentView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		DB4657AD2A9A4C87003A5BC3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DB4657AE2A9A54FA003A5BC3 /* LoginView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		DB8CD1C92A9A4B4200E82730 = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +122,14 @@
 		DB8CD1D42A9A4B4200E82730 /* Threads */ = {
 			isa = PBXGroup;
 			children = (
-				DB8CD1D52A9A4B4200E82730 /* ThreadsApp.swift */,
-				DB8CD1D72A9A4B4200E82730 /* ContentView.swift */,
-				DB8CD1D92A9A4B4300E82730 /* Assets.xcassets */,
+				DB4657A52A9A4C02003A5BC3 /* App */,
+				DB4657A62A9A4C09003A5BC3 /* Core */,
+				DB4657A72A9A4C10003A5BC3 /* Extensions */,
+				DB4657A92A9A4C24003A5BC3 /* Models */,
 				DB8CD1DB2A9A4B4300E82730 /* Preview Content */,
+				DB4657AA2A9A4C2F003A5BC3 /* Services */,
+				DB4657A82A9A4C17003A5BC3 /* Utils */,
+				DB8CD1D92A9A4B4300E82730 /* Assets.xcassets */,
 			);
 			path = Threads;
 			sourceTree = "<group>";
@@ -137,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB4657AF2A9A54FA003A5BC3 /* LoginView.swift in Sources */,
 				DB8CD1D82A9A4B4200E82730 /* ContentView.swift in Sources */,
 				DB8CD1D62A9A4B4200E82730 /* ThreadsApp.swift in Sources */,
 			);
