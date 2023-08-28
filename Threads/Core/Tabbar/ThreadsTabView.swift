@@ -1,5 +1,5 @@
 //
-//  TreadsTabView.swift
+//  ThreadsTabView.swift
 //  Threads
 //
 //  Created by Bhishak Sanyal on 27/08/23.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct TreadsTabView: View {
+struct ThreadsTabView: View {
     @State private var selectedTab = 0
     
     var body: some View {
@@ -56,6 +56,6 @@ struct TreadsTabView: View {
 
 struct TreadsTabView_Previews: PreviewProvider {
     static var previews: some View {
-        TreadsTabView()
+        ThreadsTabView()
     }
 }

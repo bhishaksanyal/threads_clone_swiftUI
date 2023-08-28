@@ -11,7 +11,7 @@
 		DB4657B12A9B3166003A5BC3 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4657B02A9B3165003A5BC3 /* RegistrationView.swift */; };
 		DB4657B52A9B3319003A5BC3 /* ThreadsTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4657B42A9B3319003A5BC3 /* ThreadsTextFieldModifier.swift */; };
 		DB4657B72A9B3464003A5BC3 /* ThreadsButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4657B62A9B3464003A5BC3 /* ThreadsButtonModifier.swift */; };
-		DB4657BA2A9B5E8C003A5BC3 /* TreadsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4657B92A9B5E8C003A5BC3 /* TreadsTabView.swift */; };
+		DB4657BA2A9B5E8C003A5BC3 /* ThreadsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4657B92A9B5E8C003A5BC3 /* ThreadsTabView.swift */; };
 		DB4657BE2A9B618D003A5BC3 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4657BD2A9B618D003A5BC3 /* FeedView.swift */; };
 		DB4657C12A9B61AA003A5BC3 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4657C02A9B61AA003A5BC3 /* ExploreView.swift */; };
 		DB4657C42A9B61D2003A5BC3 /* CreateThreadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4657C32A9B61D2003A5BC3 /* CreateThreadView.swift */; };
@@ -29,7 +29,7 @@
 		DB4657B02A9B3165003A5BC3 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		DB4657B42A9B3319003A5BC3 /* ThreadsTextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsTextFieldModifier.swift; sourceTree = "<group>"; };
 		DB4657B62A9B3464003A5BC3 /* ThreadsButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsButtonModifier.swift; sourceTree = "<group>"; };
-		DB4657B92A9B5E8C003A5BC3 /* TreadsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreadsTabView.swift; sourceTree = "<group>"; };
+		DB4657B92A9B5E8C003A5BC3 /* ThreadsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsTabView.swift; sourceTree = "<group>"; };
 		DB4657BD2A9B618D003A5BC3 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		DB4657C02A9B61AA003A5BC3 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		DB4657C32A9B61D2003A5BC3 /* CreateThreadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateThreadView.swift; sourceTree = "<group>"; };
@@ -143,7 +143,7 @@
 		DB4657B82A9B5E74003A5BC3 /* Tabbar */ = {
 			isa = PBXGroup;
 			children = (
-				DB4657B92A9B5E8C003A5BC3 /* TreadsTabView.swift */,
+				DB4657B92A9B5E8C003A5BC3 /* ThreadsTabView.swift */,
 			);
 			path = Tabbar;
 			sourceTree = "<group>";
@@ -310,7 +310,7 @@
 				DB4657B52A9B3319003A5BC3 /* ThreadsTextFieldModifier.swift in Sources */,
 				DB8CD1D62A9A4B4200E82730 /* ThreadsApp.swift in Sources */,
 				DB4657B12A9B3166003A5BC3 /* RegistrationView.swift in Sources */,
-				DB4657BA2A9B5E8C003A5BC3 /* TreadsTabView.swift in Sources */,
+				DB4657BA2A9B5E8C003A5BC3 /* ThreadsTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
