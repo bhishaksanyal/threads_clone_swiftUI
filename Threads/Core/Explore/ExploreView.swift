@@ -16,32 +16,7 @@ struct ExploreView: View {
                 LazyVStack {
                     ForEach(0...20, id: \.self) { user in
                         VStack {
-                            HStack {
-                                Image("threads_app_logo")
-                                    .resizable()
-                                    .frame(width: 50, height: 50)
-                                    .clipShape(Circle())
-                                
-                                VStack(alignment: .leading) {
-                                    Text("bhishaksanyal")
-                                        .fontWeight(.semibold)
-                                    
-                                    Text("Bhishak Sanyal")
-                                }
-                                .font(.footnote)
-                                
-                                Spacer()
-                                
-                                Text("Follow")
-                                    .font(.subheadline)
-                                    .fontWeight(.semibold)
-                                    .frame(width: 100, height: 32)
-                                    .overlay {
-                                        RoundedRectangle(cornerRadius: 10)
-                                            .stroke(Color(.systemGray4), lineWidth: 1)
-                                    }
-                            }
-                            .padding(.horizontal)
+                            UserCell()
                             
                             Divider()
                                 .padding(.horizontal)
