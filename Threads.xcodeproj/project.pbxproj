@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB1A3BB12ABB6EEA00320814 /* ProfileThreadFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1A3BB02ABB6EEA00320814 /* ProfileThreadFilter.swift */; };
 		DB4657AF2A9A54FA003A5BC3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4657AE2A9A54FA003A5BC3 /* LoginView.swift */; };
 		DB4657B12A9B3166003A5BC3 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4657B02A9B3165003A5BC3 /* RegistrationView.swift */; };
 		DB4657B52A9B3319003A5BC3 /* ThreadsTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4657B42A9B3319003A5BC3 /* ThreadsTextFieldModifier.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB1A3BB02ABB6EEA00320814 /* ProfileThreadFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileThreadFilter.swift; sourceTree = "<group>"; };
 		DB4657AE2A9A54FA003A5BC3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		DB4657B02A9B3165003A5BC3 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		DB4657B42A9B3319003A5BC3 /* ThreadsTextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsTextFieldModifier.swift; sourceTree = "<group>"; };
@@ -58,6 +60,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB1A3BAE2ABB6E9300320814 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DB4657C92A9B6204003A5BC3 /* ProfileView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DB1A3BAF2ABB6EBB00320814 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DB1A3BB02ABB6EEA00320814 /* ProfileThreadFilter.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		DB4657A52A9A4C02003A5BC3 /* App */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,7 +207,8 @@
 		DB4657C82A9B61F8003A5BC3 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				DB4657C92A9B6204003A5BC3 /* ProfileView.swift */,
+				DB1A3BAF2ABB6EBB00320814 /* Model */,
+				DB1A3BAE2ABB6E9300320814 /* View */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -315,6 +334,7 @@
 				DB4657C72A9B61EF003A5BC3 /* ActivityView.swift in Sources */,
 				DB4657C42A9B61D2003A5BC3 /* CreateThreadView.swift in Sources */,
 				DB4657BE2A9B618D003A5BC3 /* FeedView.swift in Sources */,
+				DB1A3BB12ABB6EEA00320814 /* ProfileThreadFilter.swift in Sources */,
 				DB4657C12A9B61AA003A5BC3 /* ExploreView.swift in Sources */,
 				DB4657CA2A9B6204003A5BC3 /* ProfileView.swift in Sources */,
 				DB4657B72A9B3464003A5BC3 /* ThreadsButtonModifier.swift in Sources */,
